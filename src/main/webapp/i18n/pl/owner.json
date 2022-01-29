@@ -1,0 +1,27 @@
+{
+  "hiptestApp": {
+    "owner": {
+      "home": {
+        "title": "Owner",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Owner",
+        "createOrEditLabel": "Dodaj lub edytuj: Owner",
+        "notFound": "No Owners found"
+      },
+      "created": "Utworzono nowy obiekt typu Owner z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Owner z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Owner z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Owner {{ id }}?"
+      },
+      "detail": {
+        "title": "Owner"
+      },
+      "id": "ID",
+      "name": "Name",
+      "lastName": "Last Name",
+      "mileage": "Mileage",
+      "bike": "Bike"
+    }
+  }
+}

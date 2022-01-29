@@ -1,0 +1,35 @@
+{
+  "applications": "*",
+  "changelogDate": "20220129130344",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "owner",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mileage",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Owner",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "bike",
+      "otherEntityRelationshipName": "owner",
+      "relationshipName": "bike",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "no"
+}
