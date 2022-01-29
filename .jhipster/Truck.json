@@ -1,0 +1,36 @@
+{
+  "applications": "*",
+  "changelogDate": "20220129130347",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "truck",
+  "fields": [
+    {
+      "fieldName": "model",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "engine",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "serialNo",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Truck",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "driver",
+      "otherEntityRelationshipName": "truck",
+      "ownerSide": true,
+      "relationshipName": "driver",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "no"
+}

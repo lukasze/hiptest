@@ -1,0 +1,26 @@
+{
+  "hiptestApp": {
+    "bike": {
+      "home": {
+        "title": "Bike",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Bike",
+        "createOrEditLabel": "Dodaj lub edytuj: Bike",
+        "notFound": "No Bikes found"
+      },
+      "created": "Utworzono nowy obiekt typu Bike z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Bike z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Bike z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Bike {{ id }}?"
+      },
+      "detail": {
+        "title": "Bike"
+      },
+      "id": "ID",
+      "model": "Model",
+      "serialNo": "Serial No",
+      "owner": "Owner"
+    }
+  }
+}

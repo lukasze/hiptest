@@ -1,0 +1,40 @@
+{
+  "applications": "*",
+  "changelogDate": "20220129130343",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "glasses",
+  "fields": [
+    {
+      "fieldName": "model",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "front",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "temples",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lenses",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Glasses",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "person",
+      "otherEntityRelationshipName": "glasses",
+      "ownerSide": false,
+      "relationshipName": "person",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}

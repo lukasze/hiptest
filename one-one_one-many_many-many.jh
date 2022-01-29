@@ -1,0 +1,53 @@
+// Person (1) <-----> (1) Head
+// A one-to-one relationship 
+
+
+entity Person {
+	name String,
+    lastName String,
+}
+entity Glasses {
+	model String,
+    front String,
+    temples String,
+    lenses String
+}
+
+relationship OneToOne {
+  Person{glasses} to Glasses{person}
+}
+
+// Biker (1) <-----> (*) Bike
+// A biker can have many bikes, and a bike can have only one owner.
+    
+entity Owner {
+	name String,
+    lastName String,
+     mileage Integer
+}
+entity Bike {
+	model String,
+    serialNo String
+}
+
+relationship OneToMany {
+  Owner{bike} to Bike{owner}
+}
+
+// Driver (*) <-----> (*) Car
+// A Driver can drive many trucks, a Truck can also have many drivers.
+
+entity Driver {
+	name String,
+    lastName String
+    mileage Integer
+}
+entity Truck {
+	model String,
+    engine String,
+    serialNo String
+}
+
+relationship ManyToMany {
+  Truck{driver} to Driver{truck}
+}

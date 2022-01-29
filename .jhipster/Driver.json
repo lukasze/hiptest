@@ -1,0 +1,36 @@
+{
+  "applications": "*",
+  "changelogDate": "20220129130346",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "driver",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mileage",
+      "fieldType": "Integer"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Driver",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "truck",
+      "otherEntityRelationshipName": "driver",
+      "ownerSide": false,
+      "relationshipName": "truck",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "no"
+}

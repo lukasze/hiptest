@@ -1,0 +1,27 @@
+{
+  "hiptestApp": {
+    "driver": {
+      "home": {
+        "title": "Driver",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Driver",
+        "createOrEditLabel": "Dodaj lub edytuj: Driver",
+        "notFound": "No Drivers found"
+      },
+      "created": "Utworzono nowy obiekt typu Driver z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Driver z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Driver z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Driver {{ id }}?"
+      },
+      "detail": {
+        "title": "Driver"
+      },
+      "id": "ID",
+      "name": "Name",
+      "lastName": "Last Name",
+      "mileage": "Mileage",
+      "truck": "Truck"
+    }
+  }
+}

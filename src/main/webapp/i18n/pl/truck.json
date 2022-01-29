@@ -1,0 +1,27 @@
+{
+  "hiptestApp": {
+    "truck": {
+      "home": {
+        "title": "Truck",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Truck",
+        "createOrEditLabel": "Dodaj lub edytuj: Truck",
+        "notFound": "No Trucks found"
+      },
+      "created": "Utworzono nowy obiekt typu Truck z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Truck z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Truck z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Truck {{ id }}?"
+      },
+      "detail": {
+        "title": "Truck"
+      },
+      "id": "ID",
+      "model": "Model",
+      "engine": "Engine",
+      "serialNo": "Serial No",
+      "driver": "Driver"
+    }
+  }
+}

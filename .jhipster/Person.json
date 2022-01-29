@@ -1,0 +1,32 @@
+{
+  "applications": "*",
+  "changelogDate": "20220129130342",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "person",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "lastName",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Person",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "glasses",
+      "otherEntityRelationshipName": "person",
+      "ownerSide": true,
+      "relationshipName": "glasses",
+      "relationshipType": "one-to-one"
+    }
+  ],
+  "service": "no"
+}
